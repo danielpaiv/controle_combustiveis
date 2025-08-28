@@ -84,8 +84,8 @@
     <h2>Dados do Produto</h2> <!-- Título principal da página -->
 
     <header> <!-- Início do cabeçalho -->
-        <button><a href="sair.php">Sair</a></button> <!-- Botão com link para outra página -->
-        <button><a href="vendas.php">Planilha</a></button> <!-- Botão com link para outra página -->
+        <button><a href="sair.php">SAIR</a></button> <!-- Botão com link para outra página -->
+        <button><a href="vendas.php">PLANILHA</a></button> <!-- Botão com link para outra página -->
 
     </header> <!-- Fim do cabeçalho -->
     <div class="box">

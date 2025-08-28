@@ -38,8 +38,37 @@ include_once 'conexao.php';
     tr:hover {
         background-color: #f5f5f5;
     }
+     header {
+        display: flex; /* Usa flexbox para o layout do header */
+        justify-content: space-around; /* Espaçamento igual entre os itens */
+        background-color: #4CAF50; /* Cor de fundo do header */
+        padding: 10px; /* Espaçamento interno do header */
+    }
+    header a {
+        color: white; /* Cor do texto dos links */
+        text-decoration: none; /* Remove sublinhado dos links */
+        font-weight: bold; /* Deixa o texto em negrito */
+    }
+    header p {
+        margin: 0; /* Remove a margem dos parágrafos no header */
+    } button {
+        background-color: #7f62c4; /* Cor de fundo do botão */
+        border: none; /* Remove a borda do botão */
+        padding: 10px 20px; /* Espaçamento interno do botão */
+        cursor: pointer; /* Cursor de mão ao passar por cima */
+        border-radius: 5px; /* Bordas arredondadas */
+    }
+    button:hover {
+        background-color: #080be4; /* Cor de fundo ao passar o mouse */
+    }
 </style>
 <body>
+     <header>
+        <button><a href="sair.php">SAIR</a></button> <!-- Botão com link para outra página -->
+        <button><a href="produtos.php">VOLTAR</a></button> <!-- Botão com link para outra página -->
+
+    </header> 
+    <BR></BR>
     <table id="vendas">
     <thead>
         <tr>
