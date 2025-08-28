@@ -9,7 +9,7 @@ include_once 'conexao.php';
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vendas</title>
+    <title>PLANILHA DE ESTOQUE</title>
 </head>
 <style>
     body {
