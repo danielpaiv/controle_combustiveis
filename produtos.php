@@ -1,5 +1,4 @@
-
- <?php
+<?php
         session_start();
         include_once('conexao.php');
         
@@ -14,7 +13,7 @@
         $result_estoque = $conn->query($sql_estoque);
 
          
-    ?>
+?>
 <!DOCTYPE html> <!-- Declara o tipo do documento como HTML5 -->
 <html lang="en"> <!-- Início do documento HTML, idioma definido como inglês -->
 <head> <!-- Cabeçalho do documento -->
